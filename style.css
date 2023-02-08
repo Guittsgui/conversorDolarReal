@@ -4,33 +4,112 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+input:focus{
+    outline: none;
+}
+
 .container{
-    height: 300px;
+    height: 250px;
     width: 500px;
     margin: auto;
     margin-top: 40px;
     background-color: bisque;
-    border-radius: 20px;
+    border-radius: 30px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
     display: flex;
     flex-direction: column;
+}
+.title{
+    height: 70px;
+    display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: 1px solid black;
 }
-.container h1{
-    margin-bottom: 30px;
-}
-.container h2{
+.subtitle{
+    margin-top: 10px;
+    display: flex;
     align-items: center;
-    text-align: center;
-    font-size: 20px;
+    justify-content: center;
+    height: 40px;
+    font-size: 15px;
 }
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.inputid{
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 0 30px;
+    
+}
+.change{
+    cursor: pointer;
+}
+
 .container button{
     width: 100px;
     height: 40px;
     cursor: pointer;
+    border-radius: 30px;
 }
 .container button:hover{
-    background-color: gray;
+    background-color:rgb(252, 201, 135);
     color: white;
+}
+.btContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.bandeiraUSA{
+    display: none;
+}
+.moedaConvertida{
+    height: 200px;
+    width: 500px;
+    background-color:rgb(190, 255, 233);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 30px;  
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 1px black;
+}
+.moedaConvertida h1{
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+.moedaConvertida h2{
+    background-color: white;
+    height: 40px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 1px black;
+}
+.moedaConvertida p {
+    font-size: 20px;
+    background-color: aliceblue;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
 }

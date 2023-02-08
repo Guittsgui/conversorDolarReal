@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,11 +9,28 @@
 </head>
 <body>
     <div class="container">
-        <h1> Consumindo API Dólar</h1>
-        <h2> Informe a quantidade em Real para ser Convertido: </h2>
-        <button class="btEnviar">EnviarReq</button>
-        <input type="number">
+        <div class="title">
+            <h1> Conversor Moedas</h1>
+        </div>
+        <div class="subtitle">
+            <h2 class="infoChange"> De real para Dolar </h2>
+        </div>
+        <div class="line">           
+            <img src="img/brasil.png" alt="" class="bandeiraBRASIL">
+            <img src="img/usa.png" alt="" class="bandeiraUSA">
+            <input type="number" class ='inputid' placeholder="Quantidade p/ Converter:">
+            <img src="img/change.png" alt="" class="change">
+        </div>
+        <div class="btContainer">
+            <button class="btEnviar">Cotar</button>
+        </div>   
+    </div>   
+    <div class="moedaConvertida">
+        <h1> Cotação Atual: </h1>
+        <h2> USS 5,44</h2>
+        <p> Com 140 reais voce tem 10 dolares</p>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
