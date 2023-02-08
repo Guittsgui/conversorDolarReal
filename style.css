@@ -78,7 +78,7 @@ input:focus{
 .moedaConvertida{
     height: 200px;
     width: 500px;
-    background-color:rgb(190, 255, 233);
+    background-color:rgba(190, 191, 255, 0.699);
     margin: auto;
     margin-top: 20px;
     border-radius: 30px;  
@@ -105,11 +105,12 @@ input:focus{
 }
 .moedaConvertida p {
     font-size: 20px;
-    background-color: aliceblue;
+    background-color: white;
     height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
 }
